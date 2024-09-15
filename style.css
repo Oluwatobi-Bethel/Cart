@@ -41,7 +41,8 @@ button{
     background-color: white;
     border-radius: 15px;
     font-size: 10px;
-    
+    display: flex;
+    margin-left: 3rem;
     
 }
 .btn2{
@@ -50,9 +51,11 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 15px;
+    padding: 10px 20px;
     font-size: 10px;
     margin-left: 5rem;
+    margin-top: auto;
+    cursor: pointer;
 }
 
 span{
@@ -72,5 +75,36 @@ span{
 .btn_btnnn{
     background-color: #C83C0E;
     color: white;
-    padding: 0.6rem 4rem;
+    padding: 5px 55px
 }
+
+.btn_btmm{
+    font-size: 8px;
+    border: none;
+    margin-top: 1rem;
+}
+h3{
+    color: #C63D0C;
+}
+
+@media only screen and (max-width: 375px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .btn2{
+        background-color: #C63D0C;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 8px;
+        font-size: 5px;
+        margin-left: 5rem;
+    }
+}
+
