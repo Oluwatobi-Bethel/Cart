@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-   <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Text">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">">
   <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
@@ -25,111 +27,169 @@
     <section>
       <h1>Desserts</h1>
       <div class="grid_container">
-        <div class="grid-item">
-          <p><img  src="./assets/images/image-waffle-desktop.jpg"alt=""></p>
-          <button> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Waffle with Berries</p>
-          <p>Waffle</p>
-          <p class="amount">$6.50</p><br>
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
         </div>
 
-        <div class="grid-item">
-          <p><img src="./assets/images/image-creme-brulee-desktop.jpg" alt=""></p>
-          <button class="btn2">
-            <svg class="decrease" xmlns="http://www.w3.org/2000/svg" width="10" height="2" fill="none" viewBox="0 0 10 2"><path fill="#fff" d="M0 .375h10v1.25H0V.375Z"/></svg>
-            <span>1</span>
-            <svg class="increase" xmlns ="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10"><path fill="#fff" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/></svg>
-          </button>
-          <p>Vanilla Bean Crème Brûlée</p>
-          <p>Crème Brûlée</p>
-          <p class="amount">$7.00</p><br>
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
+        </div>
+  
+        
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
         </div>
 
-        <div class="grid-item">
-          <p><img src="./assets/images/image-macaron-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Macaron Mix of Five</p>
-          <p>Macaron</p>
-          <p class="amount">$8.00</p><br>
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
         </div>
 
-        <div class="grid-item">
-          <p><img src="./assets/images/image-tiramisu-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Classic Tiramisu</p>
-          <p>Tiramisu</p>
-          <p class="amount">$5.50</p><br>
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
         </div>
 
-        <div>
-          <p><img src="./assets/images/image-baklava-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Pistachio Baklava</p>
-          <p>Baklava</p>
-          <p class="amount">$4.00</p><br>
+        <div class="content_box">
+          <div class="content_item">
+            <img class="content_img" src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
+            <button class="btn btn_pos"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 21 20">
+                <g fill="#C73B0F" clip-path="url(#a)">
+                  <path
+                    d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z" />
+                  <path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M.333 0h20v20h-20z" />
+                  </clipPath>
+                </defs>
+              </svg>Add to Cart</button>
+              </div>
+          <p class="content_txt_grey">Waffle</p>
+          <p class="content_text">Waffle with berries</p>
+          <p class="content_textcolor">$6.50</p>
+        </div>
         </div>
 
-        <div>
-          <p><img src="./assets/images/image-meringue-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Lemon Meringue Pie</p>
-          <p>Pie</p>
-          <p class="amount">$5.00</p><br>
-        </div>
-
-        <div>
-          <p><img src="./assets/images/image-cake-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Red Velvet Cake</p>
-          <p>Cake</p>
-          <p class="amount">$4.50</p><br>
-        </div>
-
-        <div>
-          <p><img src="assets/images/image-brownie-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Salted Caramel Brownie</p>
-          <p>Brownie</p>
-          <p class="amount">$4.50</p><br>
-        </div>
-
-        <div>
-          <p><img src="./assets/images/image-panna-cotta-desktop.jpg" alt=""></p>
-          <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 21 20"><g fill="#C73B0F" clip-path="url(#a)"><path d="M6.583 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM15.334 18.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM3.446 1.752a.625.625 0 0 0-.613-.502h-2.5V2.5h1.988l2.4 11.998a.625.625 0 0 0 .612.502h11.25v-1.25H5.847l-.5-2.5h11.238a.625.625 0 0 0 .61-.49l1.417-6.385h-1.28L16.083 10H5.096l-1.65-8.248Z"/><path d="M11.584 3.75v-2.5h-1.25v2.5h-2.5V5h2.5v2.5h1.25V5h2.5V3.75h-2.5Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.333 0h20v20h-20z"/></clipPath></defs></svg>Add to Cart</button>
-          <p>Vanilla Panna Cotta</p>
-          <p>Panna Cotta</p>
-          <p class="amount">$6.50</p><br>
-        </div>
-
-
-      </div>
+       
     </section>
 
     <section>
       <article class="alone_art">
         <h3>Your cart here</h3>
-      <div>
-        <p>Classic tiramsu</p>
-        <p><span class="sp1">1x</span> @ 5.50$ 5.50$</p>
-      </div>
-      <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
-      <div>
-        <p>Classic tiramsu</p>
-        <p>2x @ 5.50$ 5.50$</p>
-      </div>
-      <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
-      <div>
-        <p>Classic tiramsu</p>
-        <p>4x @ 5.50$ 5.50$</p>
-      </div>
-      <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
-      <div>
-        <p>total</p>
-      </div>
-      <p>$65.50</p><br>
-      <button class="btn_btmm"><img src="./assets/images/icon-carbon-neutral.svg" alt="">This is a <b>carbo neutral</b> delievry</button><br>
-      <button class="btn_btnnn">Confirm order</button>
-    </article>
+        <div>
+          <p>Classic tiramsu</p>
+          <p><span class="sp1">1x</span> @ 5.50$ 5.50$</p>
+        </div>
+        <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
+        <div>
+          <p>Classic tiramsu</p>
+          <p>2x @ 5.50$ 5.50$</p>
+        </div>
+        <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
+        <div>
+          <p>Classic tiramsu</p>
+          <p>4x @ 5.50$ 5.50$</p>
+        </div>
+        <p><img class="remove" src="./assets/images/icon-remove-item.svg" alt=""></p><br>
+        <div>
+          <p>total</p>
+        </div>
+        <p>$65.50</p><br>
+        <button class="btn_btmm"><img src="./assets/images/icon-carbon-neutral.svg" alt="">This is a <b>carbo
+            neutral</b> delievry</button><br>
+        <button class="btn_btnnn">Confirm order</button>
+      </article>
       <!-- Your added items will appear here -->
 
       <!-- <div class="attribution">
