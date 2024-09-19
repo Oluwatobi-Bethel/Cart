@@ -57,6 +57,36 @@ body{
     color: #C63D0C;
 }
 
+.btn_sec{
+    background-color: #C63D0C;
+    border: none;
+    padding: 10px 30px;
+}
+
+.btn_sec .first_icon{
+    margin-right: 10px;
+    background-color: #C63D0C;
+    color: #fff;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    padding: 2px;
+}
+
+.btn_sec .second_icon{
+    margin-left: 10px;
+    background-color:#C63D0C;
+    color: #fff;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    padding: 2px;
+    cursor: pointer;
+}
+.btn_sec .btn_text{
+    margin:0 5px;
+    color: #fff;
+}
+
+
 .content_text{
     font-size: 16px;
     margin-bottom: 5px;
@@ -64,8 +94,6 @@ body{
     letter-spacing: 0.75;
     
 }
-
-
 main{
     width: 80vw;
     margin: auto;
@@ -151,7 +179,9 @@ main{
 .btn_btnnn{
     background-color: #C83C0E;
     color: white;
-    padding: 5px 55px
+    padding: 5px 55px;
+    border: none;
+    border-radius: 10px;
 }
 
 .btn_btmm{
@@ -163,24 +193,17 @@ h3{
     color: #C63D0C;
 }
 
-@media only screen and (max-width: 375px) {
-    .grid-container {
+@media only screen and (max-width: 768px) {
+    .grid_container {
         grid-template-columns: 1fr;
-        
+      }
+      .btn{
+        padding: 4px 8px;
+        font-size: 10px;
+      }
+      .content_text{
+        font-size: 10px;
+      }
+      
     }
-    
-}
-
-@media only screen and (max-width: 375px) {
-    .btn2{
-        background-color: #C63D0C;
-        color: aliceblue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2px 8px;
-        font-size: 5px;
-        margin-left: 5rem;
-    }
-}
 
